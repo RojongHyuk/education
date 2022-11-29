@@ -1,0 +1,116 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: Pyenong;
+    src: url("PyeongChang-Regular.ttf");
+}
+
+body {
+    font-family: Pyenong;
+    width:960px;
+    margin:0px auto
+}
+
+#menu {
+    margin:20px 0px;
+    border-top: 1px dotted cornflowerblue;
+    border-bottom: 1px dotted cornflowerblue;
+    padding:20px 0px;
+}
+
+#menu .item {
+    padding:0px 20px;
+}
+
+#menu .item a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+#menu .item a:hover{
+    font-weight: bold;
+}
+
+#bottom {
+    text-align: center;
+    margin:20px 0px;
+    border-top:5px solid gray;
+    padding:20px 0px;
+}
+
+#middle {
+    margin:30px 0px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+td {
+    padding:10px 10px;
+    border-bottom: 1px solid cornflowerblue;
+}
+
+table .title {
+   	background:cornflowerblue;
+    color:white;
+    text-align: center;
+}
+
+table .row:hover {
+    color:blue;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 25px;
+    background:cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+    font-family: Pyenong;
+}
+
+button:disabled {
+	font-family: Pyenong;
+    background: gray;
+}
+
+input[type="text"], input[type="password"], select{
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Pyenong;
+}
+
+textarea{
+    font-family: Pyenong;
+    border-radius: 5px;
+    padding: 5px;
+}
+.readonly {
+    color: gray;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.buttons {
+	font-family: Pyenong;
+    text-align: center;
+    margin:10px;
+}
